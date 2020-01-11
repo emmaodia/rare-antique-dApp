@@ -5,4 +5,12 @@ pragma solidity ^0.5.0;
 contract Claim {
     address[16] public antiqueItems;
     
+    //Claim an antique function
+    function claim(uint antiqueId) public returns (uint) {
+        require(antiqueId >= 0 && antiqueId <=15);
+
+        antiqueItems[antiqueId] = msg.sender;
+
+        return antiqueId;
+    }
 }
