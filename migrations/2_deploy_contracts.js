@@ -1,5 +1,5 @@
-const Claim = artifacts.require("Claim");
+const Claim = artifacts.require("./Claim.sol");
 
 module.exports = (deployer) => {
-    deployer.deployer(Claim);
+    deployer.deploy(Claim);
 }

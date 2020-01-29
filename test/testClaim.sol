@@ -7,26 +7,26 @@ import "../contracts/Claim.sol";
 contract TestClaim {
     Claim claim = Claim(DeployedAddresses.Claim());
 
-    uint expectedPetId = 8;
+    uint expectedAntiqueId = 8;
 
-    address expectedAdopter = address(this);
+    address expectedClaimant = address(this);
 
-    function testUserCanClaimItem() public {
-    uint returnedId = claim.claim(expectedPetId);
+    function testUserCanClaimAntiqueItem() public {
+    uint returnedId = claim.claim(expectedAntiqueId);
 
-        Assert.equal(returnedId, expectedPetId, "Claim of the expected pet should match what is returned.");
+        Assert.equal(returnedId, expectedAntiqueId, "Claim of the expected Antique Item should match what is returned.");
     }
 
-    function testGetAdopterAddressByPetId() public {
-        address antiqueItem = claim.antiqueItems(expectedPetId);
+    function testGetAdopterAddressByAntiqueId() public {
+        address claimants = claim.claimants(expectedAntiqueId);
 
-        Assert.equal(antiqueItem, expectedAdopter, "Owner of the expected Pet should be this contract.");
+        Assert.equal(claimants, expectedClaimant, "Owner of the expected Pet should be this contract.");
     }
 
-    function testGetAdopterAddressByPetIdInArray() public {
-        address[16] memory antiqueItems = claim.getAdopters();
+    function testGetClaimantAddressByAntiqueItemIdInArray() public {
+        address[16] memory claimants = claim.getClaimants();
 
-        Assert.equal(antiqueItems[expectedPetId], expectedAdopter, "Owner of the expected Pet should be this contract.");
+        Assert.equal(claimants[expectedAntiqueId], expectedClaimant, "Owner of the expected Antique should be this contract.");
     }
 }
 
