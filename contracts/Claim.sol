@@ -13,4 +13,9 @@ contract Claim {
 
         return antiqueId;
     }
+
+    //Get a list of the claim owners
+    function getClaimOwner() view public returns(address[16] memory) {
+        return antiqueItems;
+    }
 }
