@@ -1,130 +1,129 @@
 [
   {
     "id": 0,
-    "name": "Frieda",
-    "picture": "images/scottish-terrier.jpeg",
+    "owner": "Frieda",
     "age": 3,
-    "breed": "Scottish Terrier",
+    "item": "Scottish Terrier",
     "location": "Lisco, Alabama"
   },
   {
     "id": 1,
-    "name": "Gina",
+    "owner": "Gina",
     "picture": "images/scottish-terrier.jpeg",
     "age": 3,
-    "breed": "Scottish Terrier",
+    "item": "Scottish Terrier",
     "location": "Tooleville, West Virginia"
   },
   {
     "id": 2,
-    "name": "Collins",
+    "owner": "Collins",
     "picture": "images/french-bulldog.jpeg",
     "age": 2,
-    "breed": "French Bulldog",
+    "item": "French Bulldog",
     "location": "Freeburn, Idaho"
   },
   {
     "id": 3,
-    "name": "Melissa",
+    "owner": "Melissa",
     "picture": "images/boxer.jpeg",
     "age": 2,
-    "breed": "Boxer",
+    "item": "Boxer",
     "location": "Camas, Pennsylvania"
   },
   {
     "id": 4,
-    "name": "Jeanine",
+    "owner": "Jeanine",
     "picture": "images/french-bulldog.jpeg",
     "age": 2,
-    "breed": "French Bulldog",
+    "item": "French Bulldog",
     "location": "Gerber, South Dakota"
   },
   {
     "id": 5,
-    "name": "Elvia",
+    "owner": "Elvia",
     "picture": "images/french-bulldog.jpeg",
     "age": 3,
-    "breed": "French Bulldog",
+    "item": "French Bulldog",
     "location": "Innsbrook, Illinois"
   },
   {
     "id": 6,
-    "name": "Latisha",
+    "owner": "Latisha",
     "picture": "images/golden-retriever.jpeg",
     "age": 3,
-    "breed": "Golden Retriever",
+    "item": "Golden Retriever",
     "location": "Soudan, Louisiana"
   },
   {
     "id": 7,
-    "name": "Coleman",
+    "owner": "Coleman",
     "picture": "images/golden-retriever.jpeg",
     "age": 3,
-    "breed": "Golden Retriever",
+    "item": "Golden Retriever",
     "location": "Jacksonwald, Palau"
   },
   {
     "id": 8,
-    "name": "Nichole",
+    "owner": "Nichole",
     "picture": "images/french-bulldog.jpeg",
     "age": 2,
-    "breed": "French Bulldog",
+    "item": "French Bulldog",
     "location": "Honolulu, Hawaii"
   },
   {
     "id": 9,
-    "name": "Fran",
+    "owner": "Fran",
     "picture": "images/boxer.jpeg",
     "age": 3,
-    "breed": "Boxer",
+    "item": "Boxer",
     "location": "Matheny, Utah"
   },
   {
     "id": 10,
-    "name": "Leonor",
+    "owner": "Leonor",
     "picture": "images/boxer.jpeg",
     "age": 2,
-    "breed": "Boxer",
+    "item": "Boxer",
     "location": "Tyhee, Indiana"
   },
   {
     "id": 11,
-    "name": "Dean",
+    "owner": "Dean",
     "picture": "images/scottish-terrier.jpeg",
     "age": 3,
-    "breed": "Scottish Terrier",
+    "item": "Scottish Terrier",
     "location": "Windsor, Montana"
   },
   {
     "id": 12,
-    "name": "Stevenson",
+    "owner": "Stevenson",
     "picture": "images/french-bulldog.jpeg",
     "age": 3,
-    "breed": "French Bulldog",
+    "item": "French Bulldog",
     "location": "Kingstowne, Nevada"
   },
   {
     "id": 13,
-    "name": "Kristina",
+    "owner": "Kristina",
     "picture": "images/golden-retriever.jpeg",
     "age": 4,
-    "breed": "Golden Retriever",
+    "item": "Golden Retriever",
     "location": "Sultana, Massachusetts"
   },
   {
     "id": 14,
-    "name": "Ethel",
+    "owner": "Ethel",
     "picture": "images/golden-retriever.jpeg",
     "age": 2,
-    "breed": "Golden Retriever",
+    "item": "Golden Retriever",
     "location": "Broadlands, Oregon"
   },
   {
     "id": 15,
-    "name": "Terry",
+    "owner": "Terry",
     "picture": "images/golden-retriever.jpeg",
     "age": 2,
-    "breed": "Golden Retriever",
+    "item": "Golden Retriever",
     "location": "Dawn, Wisconsin"
   }
 ]

@@ -1,7 +1,7 @@
 {
-  "name": "rare antique dApp",
+  "name": "rare-antique-dapp",
   "version": "0.1.0",
-  "description": "",
+  "description": "This is a dApp to demonstrate my learning of the Solidity Programming Language on Ethereum It is a simple dApp where users lay claim to a rare antique and can transfer ownership of such antique.",
   "main": "truffle.js",
   "directories": {
     "test": "test"
@@ -11,8 +11,21 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Emmanuel Oaikhenan",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "devDependencies": {
     "lite-server": "^2.3.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emmaodia/rare-antique-dApp.git"
+  },
+  "keywords": [
+    "Ethereum",
+    "Solidity",
+    "web3js"
+  ],
+  "bugs": {
+    "url": "https://github.com/emmaodia/rare-antique-dApp/issues"
+  },
+  "homepage": "https://github.com/emmaodia/rare-antique-dApp#readme"
 }
