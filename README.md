@@ -56,7 +56,6 @@ It is a simple dApp where users lay claim to a rare antique and can transfer own
 ## Application
 
 ### Launch private blockchain with Ganache
-
     ganache-cli
     Copy private key of an account from the ganache-cli terminal.
     
@@ -78,5 +77,14 @@ It is a simple dApp where users lay claim to a rare antique and can transfer own
  4. Connect with this account
 
 ### Go to application
+Open Browser to `localhost:3000`
 
-Go to `localhost:3000`and enjoy
+### License
+This project is licensed under the Apache-2.0 License
+
+# Author
+[Emmanuel Oaikhenan](https://twitter.com/@emma_odia)
+
+## Acknowledgements
+[FreeCodeCamp](https://medium.freecodecamp.com)<br>
+[Papa Google](https://google.com)
