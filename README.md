@@ -46,30 +46,30 @@ It is a simple dApp where users lay claim to a rare antique and can transfer own
 ## Tests
 
 ### Launch private blockchain with Ganache
-    `$ ganache-cli`
+    $ ganache-cli
 
 ### Launch tests
-    `$ cd rare-antique-dApp`
+    $ cd rare-antique-dApp
 
-    `$ truffle tests`
+    $ truffle tests
     
 ## Application
 
 ### Launch private blockchain with Ganache
-    `$ ganache-cli`
+    $ ganache-cli
 
     Copy private key of an account from the ganache-cli terminal.
     
 ### Deploy contracts 
-    `$ cd rare-antique-dApp`
-    `$ truffle compile`
-    `$ truffle migrate`
+    $ cd rare-antique-dApp
+    $ truffle compile
+    $ truffle migrate
     
     If error of type `not found compiled contract`, delete `/build/contract` folder
 
 ### Start application
-    `$ cd rare-antique-dApp`
-    `$ npm run dev`
+    $ cd rare-antique-dApp
+    $ npm run dev
 
 ### Connect to Metamask
  1. Open web brower 
@@ -87,6 +87,8 @@ This project is licensed under the Apache-2.0 License
 [Emmanuel Oaikhenan](https://twitter.com/@emma_odia)
 
 ## Acknowledgements
-[Consensys Academy](https://consensys.net/academy/)
-[Papa Google](https://google.com)
+[Consensys Academy](https://consensys.net/academy/)<br/>
+[Papa Google](https://google.com)<br/>
 [Stack Overflow](https://stackoverflow.com)
+
+*Work In Progress
