@@ -3,7 +3,7 @@ App = {
   contracts: {},
 
   init: async function() {
-    // Load pets.
+    // Load items.
     $.getJSON('../items.json', function(data) {
       var petsRow = $('#petsRow');
       var petTemplate = $('#petTemplate');
@@ -11,8 +11,8 @@ App = {
       for (i = 0; i < data.length; i ++) {
         petTemplate.find('.panel-title').text(data[i].owner);
         petTemplate.find('.pet-breed').text(data[i].item);
-        petTemplate.find('.pet-age').text(data[i].age);
-        petTemplate.find('.pet-location').text(data[i].location);
+        petTemplate.find('.pet-age').text(data[i].year);
+        petTemplate.find('.pet-location').text(data[i].city);
         petTemplate.find('.btn-adopt').attr('data-id', data[i].id);
 
         petsRow.append(petTemplate.html());
@@ -56,9 +56,9 @@ App = {
       App.contracts.Claim = TruffleContract(ClaimArtifact);
     
       // Set the provider for our contract
-      App.contracts.CLaim.setProvider(App.web3Provider);
+      App.contracts.Claim.setProvider(App.web3Provider);
     
-      // Use our contract to retrieve and mark the adopted pets
+      // Use our contract to retrieve and mark the items
       return App.markClaimed();
     });
 
@@ -78,9 +78,9 @@ App = {
 
       return claimInstance.getClaimants.call();
     }).then(function(claimants) {
-      for (i = 0; i < adopters.length; i++) {
+      for (i = 0; i < claimants.length; i++) {
         if (claimants[i] !== '0x0000000000000000000000000000000000000000') {
-          $('.panel-pet').eq(i).find('button').text('Success').attr('disabled', true);
+          $('.panel-pet').eq(i).find('button').text('Claimed').attr('disabled', true);
         }
       }
     }).catch(function(err) {
@@ -102,11 +102,11 @@ App = {
 
       var account = accounts[0];
 
-      App.contracts.Adoption.deployed().then(function(instance) {
+      App.contracts.Claim.deployed().then(function(instance) {
         claimInstance = instance;
 
-        // Execute adopt as a transaction by sending account
-        return claimInstance.adopt(antiqueId, {from: account});
+        // Execute claim as a transaction by sending account
+        return claimInstance.claim(antiqueId, {from: account});
       }).then(function(result) {
         return App.markClaimed();
       }).catch(function(err) {

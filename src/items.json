@@ -1,129 +1,130 @@
 [
   {
     "id": 0,
-    "owner": "Frieda",
-    "age": 3,
-    "item": "Scottish Terrier",
-    "location": "Lisco, Alabama"
+    "owner": "Anthony Frimpong",
+    "year": 1669,
+    "item": "West African Cowries",
+    "city": "Goald Coast",
+    "country": "Ghana"
   },
   {
     "id": 1,
-    "owner": "Gina",
-    "picture": "images/scottish-terrier.jpeg",
-    "age": 3,
-    "item": "Scottish Terrier",
-    "location": "Tooleville, West Virginia"
+    "owner": "Ahmad",
+    "year": 1445,
+    "item": "Turkish Cavalry Sword",
+    "city": "Tunis",
+    "country": "Tunisia"
   },
   {
     "id": 2,
-    "owner": "Collins",
-    "picture": "images/french-bulldog.jpeg",
-    "age": 2,
-    "item": "French Bulldog",
-    "location": "Freeburn, Idaho"
+    "owner": "Collins Okpebholo",
+    "year": 1890,
+    "item": "Benin Oba Beads",
+    "city": "Benin City",
+    "country": "Nigeria"
   },
   {
     "id": 3,
-    "owner": "Melissa",
-    "picture": "images/boxer.jpeg",
-    "age": 2,
-    "item": "Boxer",
-    "location": "Camas, Pennsylvania"
+    "owner": "Jane Rechungwira",
+    "year": 1909,
+    "item": "Catholic Wooden Chalice",
+    "city": "Daar Es Salam",
+    "country": "Tanzania"
   },
   {
     "id": 4,
-    "owner": "Jeanine",
-    "picture": "images/french-bulldog.jpeg",
-    "age": 2,
-    "item": "French Bulldog",
-    "location": "Gerber, South Dakota"
+    "owner": "Jeanine Laurria",
+    "year": 1509,
+    "item": "Musket",
+    "city": "Lyon",
+    "country": "France"
   },
   {
     "id": 5,
-    "owner": "Elvia",
-    "picture": "images/french-bulldog.jpeg",
-    "age": 3,
-    "item": "French Bulldog",
-    "location": "Innsbrook, Illinois"
+    "owner": "Elvira Gomez",
+    "year": 1709,
+    "item": "Aztec Spear Head",
+    "city": "Mexico",
+    "country": "Mexico"
   },
   {
     "id": 6,
-    "owner": "Latisha",
-    "picture": "images/golden-retriever.jpeg",
-    "age": 3,
-    "item": "Golden Retriever",
-    "location": "Soudan, Louisiana"
+    "owner": "Wright Latifa",
+    "year": 1709,
+    "item": "Sailor's Compass",
+    "city": "Virginnia",
+    "country": "USA"
   },
   {
     "id": 7,
-    "owner": "Coleman",
-    "picture": "images/golden-retriever.jpeg",
-    "age": 3,
-    "item": "Golden Retriever",
-    "location": "Jacksonwald, Palau"
+    "owner": "Mohammed Hassan",
+    "year": 1565,
+    "item": "Hierologlyphics Tablet",
+    "location": "Cairo",
+    "country": "Egypt"
   },
   {
     "id": 8,
-    "owner": "Nichole",
-    "picture": "images/french-bulldog.jpeg",
-    "age": 2,
-    "item": "French Bulldog",
-    "location": "Honolulu, Hawaii"
+    "owner": "Nicholas Pierre",
+    "year": 1455,
+    "item": "Wine Bottle",
+    "location": "Paris",
+    "country": "France"
   },
   {
     "id": 9,
-    "owner": "Fran",
-    "picture": "images/boxer.jpeg",
-    "age": 3,
-    "item": "Boxer",
-    "location": "Matheny, Utah"
+    "owner": "Mary Moses",
+    "year": 1277,
+    "item": "13th Century Rosary",
+    "location": "Rome",
+    "country": "Italy"
   },
   {
     "id": 10,
-    "owner": "Leonor",
-    "picture": "images/boxer.jpeg",
-    "age": 2,
-    "item": "Boxer",
-    "location": "Tyhee, Indiana"
+    "owner": "Dimitry Novak",
+    "year": 1255,
+    "item": "Russian Musket",
+    "location": "Moscow",
+    "country": "Russia"
   },
   {
     "id": 11,
-    "owner": "Dean",
-    "picture": "images/scottish-terrier.jpeg",
-    "age": 3,
-    "item": "Scottish Terrier",
-    "location": "Windsor, Montana"
+    "owner": "Sean Bean",
+    "year": 1885,
+    "item": "Encyclopedia",
+    "location": "London",
+    "country": "England"
   },
   {
     "id": 12,
-    "owner": "Stevenson",
-    "picture": "images/french-bulldog.jpeg",
-    "age": 3,
-    "item": "French Bulldog",
-    "location": "Kingstowne, Nevada"
+    "owner": "Benjamin Ndovlo",
+    "year": 1905,
+    "item": "Zulu Spear Head",
+    "city": "Cape Coast",
+    "country": "South Africa"
   },
   {
     "id": 13,
-    "owner": "Kristina",
-    "picture": "images/golden-retriever.jpeg",
-    "age": 4,
-    "item": "Golden Retriever",
-    "location": "Sultana, Massachusetts"
+    "owner": "John Kurst",
+    "year": 1889,
+    "item": "Hunter's Head Lamp",
+    "city": "Montana",
+    "country": "USA"
   },
   {
     "id": 14,
-    "owner": "Ethel",
-    "picture": "images/golden-retriever.jpeg",
-    "age": 2,
-    "item": "Golden Retriever",
-    "location": "Broadlands, Oregon"
+    "owner": "Betrand Russel",
+    "year": 1565,
+    "item": "King James Bible",
+    "city": "Dublin",
+    "country": "Ireland"
   },
   {
     "id": 15,
-    "owner": "Terry",
-    "picture": "images/golden-retriever.jpeg",
-    "age": 2,
-    "item": "Golden Retriever",
-    "location": "Dawn, Wisconsin"
+    "owner": "Fabian Terry",
+    "year": 1925,
+    "item": "Treasure Map",
+    "city": "Melbourne",
+    "country": "Australia"
   }
 ]
